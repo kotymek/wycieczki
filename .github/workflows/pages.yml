@@ -38,7 +38,7 @@ jobs:
           enablement: true
 
       - name: Zainstaluj zależności
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Zbuduj stronę
         run: pnpm run build:pages
