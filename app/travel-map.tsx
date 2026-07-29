@@ -78,12 +78,8 @@ export default function TravelMap() {
       <section className="workspace">
         <aside className="sidebar">
           <div className="sidebar-intro">
-            <p className="eyebrow">Publiczny atlas wspomnień</p>
+            <p className="eyebrow">Atlas wspomnień</p>
             <h1>Miejsca, do których prowadzą historie.</h1>
-            <p className="readonly-note">
-              Mapa jest udostępniona do oglądania. Jej zawartość aktualizuje
-              wyłącznie właściciel.
-            </p>
             <div className="stats">
               <div>
                 <strong>{places.length}</strong>
