@@ -17,15 +17,6 @@ export const places: Place[] = [
     region: "Małopolskie",
     lat: 49.2992,
     lng: 19.9496,
-    years: [2024, 2026],
-    note: "Tatry, spacery i powroty.",
-  },
-  {
-    id: "lipka",
-    name: "Gmina Lipka",
-    region: "Wielkopolskie",
-    lat: 53.4967,
-    lng: 17.2506,
-    years: [2015],
+    years: [2025, 2026],
   },
 ];
