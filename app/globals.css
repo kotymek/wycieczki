@@ -92,6 +92,18 @@ button {
   gap: 14px;
 }
 
+.public-badge {
+  padding: 7px 11px;
+  border: 1px solid rgba(47, 98, 89, 0.22);
+  border-radius: 999px;
+  background: rgba(47, 98, 89, 0.08);
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 .view-switch {
   padding: 4px;
   border-radius: 999px;
@@ -172,6 +184,14 @@ h1 {
   display: flex;
   gap: 34px;
   margin-top: 28px;
+}
+
+.readonly-note {
+  max-width: 310px;
+  margin: 16px 0 0;
+  color: #6b756e;
+  font-size: 12px;
+  line-height: 1.55;
 }
 
 .stats div {
@@ -303,10 +323,6 @@ h1 {
   background: #d8ddd6;
 }
 
-.map-wrap.is-adding .leaflet-container {
-  cursor: crosshair;
-}
-
 .leaflet-tile-pane {
   filter: saturate(0.62) sepia(0.08) brightness(1.04);
 }
@@ -340,46 +356,7 @@ h1 {
   border-top-color: var(--cream) !important;
 }
 
-.map-hint {
-  position: absolute;
-  z-index: 500;
-  top: 22px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 13px 10px 10px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  border-radius: 999px;
-  background: var(--ink);
-  color: white;
-  box-shadow: 0 10px 30px rgba(32, 44, 41, 0.25);
-  font-size: 13px;
-  white-space: nowrap;
-}
-
-.map-hint > span {
-  width: 27px;
-  height: 27px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--terracotta);
-  font-weight: 800;
-}
-
-.map-hint button {
-  margin-left: 6px;
-  border: 0;
-  border-left: 1px solid rgba(255, 255, 255, 0.25);
-  padding-left: 12px;
-  background: transparent;
-  color: #f4bcae;
-  cursor: pointer;
-}
-
-.memory-card,
-.editor-card {
+.memory-card {
   position: absolute;
   z-index: 500;
   right: 24px;
@@ -394,7 +371,7 @@ h1 {
 }
 
 .memory-card h2,
-.editor-card h2 {
+.memory-card h2 {
   margin: 0 30px 15px 0;
   font-size: 31px;
 }
@@ -429,74 +406,6 @@ h1 {
   font-style: italic;
 }
 
-.delete-button {
-  margin-top: 16px;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  color: #a24f3b;
-  font-size: 11px;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.editor-card {
-  max-height: calc(100% - 48px);
-  overflow-y: auto;
-}
-
-.editor-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-}
-
-.editor-card label {
-  display: block;
-  margin: 13px 0;
-  color: #4f5a55;
-  font-size: 11px;
-  font-weight: 750;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.editor-card label span {
-  color: #9b9e97;
-  font-weight: 500;
-  text-transform: none;
-}
-
-.editor-card input,
-.editor-card textarea {
-  width: 100%;
-  margin-top: 6px;
-  border: 0;
-  border-bottom: 1px solid #bbb8ad;
-  border-radius: 0;
-  padding: 8px 1px;
-  outline: none;
-  background: transparent;
-  color: var(--ink);
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.editor-card input:focus,
-.editor-card textarea:focus {
-  border-bottom-color: var(--terracotta);
-}
-
-.editor-card textarea {
-  min-height: 55px;
-  resize: vertical;
-}
-
-.save-button {
-  width: 100%;
-  margin-top: 9px;
-}
-
 .loading-screen {
   min-height: 100vh;
   display: grid;
@@ -518,7 +427,7 @@ h1 {
   }
 
   .brand-subtitle,
-  .view-switch {
+  .public-badge {
     display: none;
   }
 
@@ -556,15 +465,7 @@ h1 {
     min-height: 440px;
   }
 
-  .map-hint {
-    top: 14px;
-    max-width: calc(100% - 22px);
-    white-space: normal;
-    font-size: 11px;
-  }
-
-  .memory-card,
-  .editor-card {
+  .memory-card {
     right: 12px;
     bottom: 12px;
     width: calc(100% - 24px);
