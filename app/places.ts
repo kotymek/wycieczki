@@ -351,8 +351,8 @@ export const places: Place[] = [
     id: "zlocieniec",
     name: "Złocieniec",
     region: "Zachodniopomorskie",
-    lat: 52.992222,
-    lng: 16.915278,
+    lat: 53.5325,
+    lng: 16.010556,
     years: [2004, 2006, 2008, 2012, 2014, 2019],
   },
   {
@@ -367,8 +367,8 @@ export const places: Place[] = [
     id: "czluchow",
     name: "Człuchów",
     region: "Pomorskie",
-    lat: 53.705556,
-    lng: 16.698889,
+    lat: 53.667222,
+    lng: 17.358889,
     years: [2023, 2024],
   },
 ];
