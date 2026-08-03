@@ -155,4 +155,20 @@ export const places: Place[] = [
     lng: 18.236111,
     years: [2013],
   },
+   {
+    id: "karpacz",
+    name: "Karpacz",
+    region: "Dolnośląskie",
+    lat: 50.774444,
+    lng: 15.754722,
+    years: [2025],
+  },
+  {
+    id: "jeleniagora",
+    name: "Jelenia Góra",
+    region: "Dolnośląskie",
+    lat: 50.903056,
+    lng: 15.735278,
+    years: [2025],
+  },
 ];
