@@ -17,6 +17,6 @@ export const places: Place[] = [
     region: "Małopolskie",
     lat: 49.2992,
     lng: 19.9496,
-    years: [2025, 2026],
+    years: [2010, 2025, 2026],
   },
 ];
