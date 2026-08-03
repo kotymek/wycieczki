@@ -171,4 +171,28 @@ export const places: Place[] = [
     lng: 15.735278,
     years: [2025],
   },
+  {
+    id: "srebrnagora",
+    name: "Srebrna Góra",
+    region: "Dolnośląskie",
+    lat: 50.575556,
+    lng: 16.659722,
+    years: [2014],
+  },
+  {
+    id: "zabkowiceslaskie",
+    name: "Ząbkowice Śląskie",
+    region: "Dolnośląskie",
+    lat: 50.588889,
+    lng: 16.812778,
+    years: [2014],
+  },
+  {
+    id: "zlotystok",
+    name: "Złoty Stok",
+    region: "Dolnośląskie",
+    lat: 50.44,
+    lng: 16.875,
+    years: [2014],
+  },
 ];
