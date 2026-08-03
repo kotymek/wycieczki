@@ -31,8 +31,8 @@ export const places: Place[] = [
     id: "oswiecim",
     name: "Oświęcim",
     region: "Małopolskie",
-    lat: 50.038056,
-    lng: 19.220833,
+    lat: 50.035833,
+    lng: 19.178333,
     years: [2010],
   },
   {
