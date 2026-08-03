@@ -235,4 +235,20 @@ export const places: Place[] = [
     lng: 19.028394,
     years: [2003],
   },
+  {
+    id: "torun",
+    name: "Toruń",
+    region: "Kujawsko-Pomorskie",
+    lat: 53.015556,
+    lng: 18.619167,
+    years: [2004],
+  },
+  {
+    id: "bydgoszcz",
+    name: "Bydgoszcz",
+    region: "Kujawsko-Pomorskie",
+    lat: 53.124167,
+    lng: 18.0025,
+    years: [2001],
+  },
 ];
