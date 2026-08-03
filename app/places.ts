@@ -67,4 +67,28 @@ export const places: Place[] = [
     lng: 15.080278,
     years: [2013],
   },
+  {
+    id: "berlin",
+    name: "Berlin",
+    region: "Berlin",
+    lat: 52.518611,
+    lng: 13.391667,
+    years: [2005],
+  },
+  {
+    id: "soltau",
+    name: "Soltau",
+    region: "Niedersachsen",
+    lat: 53.02532,
+    lng: 9.87774,
+    years: [2005],
+  },
+  {
+    id: "bruksela",
+    name: "Bruksela",
+    region: "Région de Bruxelles-Capitale",
+    lat: 50.833333,
+    lng: 4.35,
+    years: [2005],
+  },
 ];
