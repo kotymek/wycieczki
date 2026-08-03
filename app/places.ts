@@ -299,4 +299,28 @@ export const places: Place[] = [
     lng: 17.199722,
     years: [2002],
   },
+  {
+    id: "mosina",
+    name: "Mosina",
+    region: "Wielkopolskie",
+    lat: 52.243889,
+    lng: 16.850556,
+    years: [2021],
+  },
+  {
+    id: "rogalin",
+    name: "Rogalin",
+    region: "Wielkopolskie",
+    lat: 52.234581,
+    lng: 16.929689,
+    years: [2023],
+  },
+  {
+    id: "kornik",
+    name: "Kórnik",
+    region: "Wielkopolskie",
+    lat: 52.243889,
+    lng: 17.090556,
+    years: [2023],
+  },
 ];
