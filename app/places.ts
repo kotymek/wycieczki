@@ -51,4 +51,20 @@ export const places: Place[] = [
     lng: 14.912056,
     years: [2013],
   },
+  {
+    id: "dychow",
+    name: "EW Dychów",
+    region: "Lubuskie",
+    lat: 51.986389,
+    lng: 15.061667,
+    years: [2013],
+  },
+  {
+    id: "frydlant",
+    name: "Frýdlant",
+    region: "Liberecký kraj",
+    lat: 50.921111,
+    lng: 15.080278,
+    years: [2013],
+  },
 ];
