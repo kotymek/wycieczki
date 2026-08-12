@@ -371,4 +371,12 @@ export const places: Place[] = [
     lng: 17.358889,
     years: [2023, 2024],
   },
+  {
+    id: "czerwonak",
+    name: "Czerwonak",
+    region: "Wielkopolskie",
+    lat: 52.466111,
+    lng: 16.984167,
+    years: [2015, 2024, 2025],
+  },
 ];
