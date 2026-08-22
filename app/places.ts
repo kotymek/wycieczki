@@ -483,4 +483,12 @@ export const places: Place[] = [
     lng: 19.932222,
     years: [2026],
   },
+  {
+    id: "moraskagora",
+    name: "MORASKA GÓRA",
+    region: "Wielkopolskie",
+    lat: 52.484444,
+    lng: 16.893056,
+    years: [2023],
+  },
 ];
