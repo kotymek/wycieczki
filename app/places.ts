@@ -652,6 +652,14 @@ export const places: Place[] = [
     years: [2018],
   },
   {
+    id: "zakrzewo",
+    name: "Zakrzewo",
+    region: "Wielkopolskie",
+    lat: 53.410556,
+    lng: 17.1525,
+    years: [2014],
+  },
+  {
     id: "starawisniewka",
     name: "Stara Wiśniewka",
     region: "Wielkopolskie",
