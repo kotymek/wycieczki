@@ -739,4 +739,28 @@ export const places: Place[] = [
     lng: 17.193333,
     years: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
   },
+  {
+    id: "kudowazdroj",
+    name: "Kudowa-Zdrój",
+    region: "Dolnośląskie",
+    lat: 50.438611,
+    lng: 16.239722,
+    years: [2026],
+  },
+  {
+    id: "klodzko",
+    name: "Kłodzko",
+    region: "Dolnośląskie",
+    lat: 50.436111,
+    lng: 16.650278,
+    years: [2026],
+  },
+  {
+    id: "adrspach",
+    name: "Adršpach",
+    region: "Královéhradecký kraj",
+    lat: 50.616667,
+    lng: 16.1,
+    years: [2026],
+  },
 ];
