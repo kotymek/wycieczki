@@ -735,8 +735,8 @@ export const places: Place[] = [
     id: "sady",
     name: "Sady",
     region: "Wielkopolskie",
-    lat: 53.523889,
-    lng: 17.193333,
+    lat: 52.448611,
+    lng: 16.724722,
     years: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
   },
   {
